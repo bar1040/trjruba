@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://c87b4v5lg8o6d"]
+
+[ext_resource type="PackedScene" uid="uid://s2gtcrtvgpcl" path="res://scen/player.tscn" id="1_n306u"]
+[ext_resource type="Texture2D" uid="uid://dffky74b8j47a" path="res://icon.svg" id="2_bfyf8"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_n306u")]
+position = Vector2(230, 266)
+speed = 200
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(364, 273)
+texture = ExtResource("2_bfyf8")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(717, 108)
+texture = ExtResource("2_bfyf8")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+position = Vector2(477, 552)
+texture = ExtResource("2_bfyf8")
